@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 1024
+#define MAX 10240
 
 int total = 0;
 int n1,n2;
