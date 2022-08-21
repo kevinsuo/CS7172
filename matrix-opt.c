@@ -21,7 +21,7 @@ void matrixMultiply() {
         for (k = 0; k < N; k++) {
 		for (i = 0; i < N; i++) {
 			for (j = 0; j < N; j++) {
-				C[i][j] = A[i][k] * B[k][j];
+				C[i][j] += A[i][k] * B[k][j];
 			}
 		}
 	}

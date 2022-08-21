@@ -29,7 +29,7 @@ void matrixMultiply() {
 				for (k = k2; k < k2+BLOCK_SIZE; k++) {
 					for (i = i2; i < i2+BLOCK_SIZE; i++) {
 						for (j = j2; j < j2+BLOCK_SIZE; j++) {
-							C[i][j] = A[i][k] * B[k][j];
+							C[i][j] += A[i][k] * B[k][j];
 						}
 					}
 				}
